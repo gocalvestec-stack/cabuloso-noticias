@@ -1,0 +1,585 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Cabuloso Notícias — notícias, jogos, mercado da bola e tudo sobre o Cruzeiro.">
+
+    <title>Cabuloso Notícias | Notícias do Cruzeiro</title>
+
+    <!-- =====================================================
+         GOOGLE ADSENSE
+         =====================================================
+
+         QUANDO O ADSENSE ESTIVER APROVADO:
+
+         1. Pegue seu código no Google AdSense.
+         2. Cole o script abaixo dentro do <head>.
+         3. Troque ca-pub-XXXXXXXX pelo seu ID.
+
+    <script async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX"
+        crossorigin="anonymous"></script>
+
+    ====================================================== -->
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         CABEÇALHO
+         ===================================================== -->
+
+    <header class="header">
+
+        <div class="container header-content">
+
+            <a href="index.html" class="logo">
+
+                <div class="logo-icon">
+                    ★
+                </div>
+
+                <div>
+                    <strong>CABULOSO</strong>
+                    <span>NOTÍCIAS</span>
+                </div>
+
+            </a>
+
+
+            <nav class="menu">
+
+                <a href="#inicio">
+                    Início
+                </a>
+
+                <a href="#ultimas">
+                    Últimas
+                </a>
+
+                <a href="#cruzeiro">
+                    Cruzeiro
+                </a>
+
+                <a href="#mercado">
+                    Mercado da Bola
+                </a>
+
+                <a href="#brasileirao">
+                    Brasileirão
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         BARRA DE ÚLTIMAS NOTÍCIAS
+         ===================================================== -->
+
+    <div class="breaking-news">
+
+        <div class="container">
+
+            <strong>🔔 ÚLTIMAS NOTÍCIAS</strong>
+
+            <span>
+                Tudo sobre o Cruzeiro em um só lugar
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <main class="container" id="inicio">
+
+
+        <!-- =================================================
+             ANÚNCIO ADSENSE — TOPO
+             ================================================= -->
+
+        <div class="ad-container">
+
+            <span>PUBLICIDADE</span>
+
+            <!-- COLOCAR ADSENSE AQUI -->
+
+        </div>
+
+
+        <!-- =================================================
+             NOTÍCIA PRINCIPAL
+             ================================================= -->
+
+        <section class="noticia-principal">
+
+            <div class="principal-conteudo">
+
+                <span class="categoria">
+                    CRUZEIRO
+                </span>
+
+                <h1>
+                    Cruzeiro se prepara para mais um grande desafio na temporada
+                </h1>
+
+                <p>
+                    Confira as principais informações do time celeste,
+                    os bastidores do clube e tudo que movimenta a torcida
+                    do Cruzeiro.
+                </p>
+
+                <button onclick="abrirNoticia()">
+                    Ler reportagem →
+                </button>
+
+            </div>
+
+
+            <div class="principal-imagem">
+
+                <div class="raposa">
+                    🦊
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             ÁREA PRINCIPAL
+             ================================================= -->
+
+        <div class="conteudo-layout">
+
+
+            <!-- =================================================
+                 NOTÍCIAS
+                 ================================================= -->
+
+            <section>
+
+                <div class="titulo-secao" id="ultimas">
+
+                    <h2>
+                        Últimas notícias
+                    </h2>
+
+                    <span>
+                        Atualizado agora
+                    </span>
+
+                </div>
+
+
+                <div class="noticias-grid">
+
+
+                    <!-- NOTÍCIA 1 -->
+
+                    <article class="card-noticia">
+
+                        <div class="card-imagem">
+                            ⚽
+                        </div>
+
+                        <div class="card-conteudo">
+
+                            <span class="categoria">
+                                CRUZEIRO
+                            </span>
+
+                            <h3>
+                                Cruzeiro mantém foco nos próximos desafios
+                            </h3>
+
+                            <p>
+                                Veja os detalhes e as principais informações
+                                do clube celeste.
+                            </p>
+
+                            <button onclick="abrirNoticia()">
+                                Ler mais
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- NOTÍCIA 2 -->
+
+                    <article class="card-noticia">
+
+                        <div class="card-imagem">
+                            🏆
+                        </div>
+
+                        <div class="card-conteudo">
+
+                            <span class="categoria">
+                                CAMPEONATO
+                            </span>
+
+                            <h3>
+                                Raposa mira sequência positiva na competição
+                            </h3>
+
+                            <p>
+                                Confira tudo sobre a preparação da equipe.
+                            </p>
+
+                            <button onclick="abrirNoticia()">
+                                Ler mais
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- NOTÍCIA 3 -->
+
+                    <article class="card-noticia">
+
+                        <div class="card-imagem">
+                            🔵
+                        </div>
+
+                        <div class="card-conteudo">
+
+                            <span class="categoria">
+                                BASTIDORES
+                            </span>
+
+                            <h3>
+                                Bastidores do Cruzeiro movimentam a torcida
+                            </h3>
+
+                            <p>
+                                As principais novidades do dia no clube.
+                            </p>
+
+                            <button onclick="abrirNoticia()">
+                                Ler mais
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- NOTÍCIA 4 -->
+
+                    <article class="card-noticia">
+
+                        <div class="card-imagem">
+                            🦊
+                        </div>
+
+                        <div class="card-conteudo">
+
+                            <span class="categoria">
+                                TORCIDA
+                            </span>
+
+                            <h3>
+                                Torcida do Cruzeiro acompanha novidades
+                            </h3>
+
+                            <p>
+                                Veja as informações que estão repercutindo.
+                            </p>
+
+                            <button onclick="abrirNoticia()">
+                                Ler mais
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- =================================================
+                     ADSENSE ENTRE NOTÍCIAS
+                     ================================================= -->
+
+                <div class="ad-container">
+
+                    <span>PUBLICIDADE</span>
+
+                    <!-- COLOCAR ADSENSE AQUI -->
+
+                </div>
+
+
+                <!-- =================================================
+                     MERCADO DA BOLA
+                     ================================================= -->
+
+                <div class="titulo-secao" id="mercado">
+
+                    <h2>
+                        Mercado da Bola
+                    </h2>
+
+                </div>
+
+
+                <div class="mercado">
+
+                    <article>
+
+                        <span class="categoria">
+                            MERCADO
+                        </span>
+
+                        <h3>
+                            Cruzeiro acompanha movimentações no mercado
+                        </h3>
+
+                        <p>
+                            Confira as últimas informações envolvendo
+                            possíveis negociações.
+                        </p>
+
+                    </article>
+
+
+                    <article>
+
+                        <span class="categoria">
+                            MERCADO
+                        </span>
+
+                        <h3>
+                            Clube avalia opções para reforçar o elenco
+                        </h3>
+
+                        <p>
+                            Veja os nomes e as posições que podem entrar
+                            no radar.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 LATERAL
+                 ================================================= -->
+
+            <aside>
+
+
+                <!-- ADSENSE LATERAL -->
+
+                <div class="ad-container anuncio-lateral">
+
+                    <span>PUBLICIDADE</span>
+
+                    <!-- COLOCAR ADSENSE AQUI -->
+
+                </div>
+
+
+                <div class="caixa-lateral">
+
+                    <h3>
+                        🔵 CABULOSO EM DESTAQUE
+                    </h3>
+
+                    <p>
+                        Notícias, jogos, mercado da bola,
+                        escalações e bastidores do Cruzeiro.
+                    </p>
+
+                </div>
+
+
+                <div class="caixa-lateral">
+
+                    <h3>
+                        📢 Receba as notícias
+                    </h3>
+
+                    <p>
+                        Acompanhe o Cabuloso Notícias
+                        e fique por dentro das novidades.
+                    </p>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <!-- =====================================================
+         RODAPÉ
+         ===================================================== -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+
+                <strong>
+                    CABULOSO NOTÍCIAS
+                </strong>
+
+                <p>
+                    Portal independente dedicado ao Cruzeiro.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#">
+                    Sobre
+                </a>
+
+                <a href="#">
+                    Contato
+                </a>
+
+                <a href="#">
+                    Política de Privacidade
+                </a>
+
+                <a href="#">
+                    Termos de Uso
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         JANELA DA REPORTAGEM
+         ===================================================== -->
+
+    <div id="modal" class="modal">
+
+        <div class="modal-box">
+
+            <button
+                class="fechar"
+                onclick="fecharNoticia()">
+                ×
+            </button>
+
+
+            <span class="categoria">
+                CRUZEIRO
+            </span>
+
+
+            <h2>
+                Cruzeiro se prepara para mais um grande desafio
+            </h2>
+
+
+            <p class="data">
+                Publicado agora
+            </p>
+
+
+            <!-- ADSENSE DENTRO DA REPORTAGEM -->
+
+            <div class="ad-container">
+
+                <span>PUBLICIDADE</span>
+
+                <!-- COLOCAR ADSENSE AQUI -->
+
+            </div>
+
+
+            <div class="texto-reportagem">
+
+                <p>
+                    O Cruzeiro segue trabalhando para os próximos
+                    compromissos da temporada. A equipe celeste mantém
+                    o foco nos treinamentos e na preparação para os
+                    desafios que estão pela frente.
+                </p>
+
+                <p>
+                    A comissão técnica trabalha para ajustar os detalhes
+                    necessários e buscar o melhor desempenho da equipe.
+                </p>
+
+                <p>
+                    A torcida acompanha de perto cada novidade e espera
+                    uma sequência positiva do time.
+                </p>
+
+            </div>
+
+
+            <div class="fonte">
+
+                <strong>
+                    Fonte / referência:
+                </strong>
+
+                <p>
+                    As informações utilizadas para a produção das
+                    reportagens serão indicadas junto à matéria.
+                </p>
+
+                <small>
+                    O Cabuloso Notícias produz textos editoriais próprios
+                    a partir das informações disponíveis nas fontes.
+                </small>
+
+            </div>
+
+
+            <!-- ADSENSE FINAL -->
+
+            <div class="ad-container">
+
+                <span>PUBLICIDADE</span>
+
+                <!-- COLOCAR ADSENSE AQUI -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+```
